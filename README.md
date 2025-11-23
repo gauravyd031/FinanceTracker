@@ -1,4 +1,4 @@
-# 💰 Finance Tracker - Full Stack Application
+#  Finance Tracker - Full Stack Application
 
 A beginner-friendly full-stack finance tracking application built with Node.js, Express, MongoDB, and React.
 
@@ -12,7 +12,7 @@ A beginner-friendly full-stack finance tracking application built with Node.js, 
 - ✅ Clean and intuitive user interface
 - ✅ Responsive design for mobile and desktop
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Backend:**
 - Node.js
@@ -27,7 +27,7 @@ A beginner-friendly full-stack finance tracking application built with Node.js, 
 - Axios for API calls
 - CSS for styling
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 FinanceTracker/
@@ -68,7 +68,7 @@ FinanceTracker/
     └── package.json
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -151,7 +151,7 @@ npm start
 
 The app will automatically open in your browser at `http://localhost:3000`
 
-## 🎯 How to Use the App
+##  How to Use the App
 
 ### 1. Register a New Account
 - Open `http://localhost:3000` in your browser
@@ -199,7 +199,7 @@ Here are some example transactions you can add:
 - Transportation: $150 (Transport)
 - Entertainment: $100 (Movies, dining)
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Authentication
 ```
@@ -221,7 +221,7 @@ GET    /api/transactions/summary/stats # Get balance summary
 
 ### Register User
 ```bash
-curl -X POST http://localhost:5000/api/auth/register \
+curl -X POST http://localhost:5001/api/auth/register \
   -H "Content-Type: application/json" \
   -d '{
     "name": "John Doe",
@@ -232,7 +232,7 @@ curl -X POST http://localhost:5000/api/auth/register \
 
 ### Login User
 ```bash
-curl -X POST http://localhost:5000/api/auth/login \
+curl -X POST http://localhost:5001/api/auth/login \
   -H "Content-Type: application/json" \
   -d '{
     "email": "john@example.com",
@@ -242,7 +242,7 @@ curl -X POST http://localhost:5000/api/auth/login \
 
 ### Add Transaction (Replace YOUR_TOKEN with actual token)
 ```bash
-curl -X POST http://localhost:5000/api/transactions \
+curl -X POST http://localhost:5001/api/transactions \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer YOUR_TOKEN" \
   -d '{
@@ -256,17 +256,17 @@ curl -X POST http://localhost:5000/api/transactions \
 
 ### Get All Transactions
 ```bash
-curl -X GET http://localhost:5000/api/transactions \
+curl -X GET http://localhost:5001/api/transactions \
   -H "Authorization: Bearer YOUR_TOKEN"
 ```
 
 ### Get Summary
 ```bash
-curl -X GET http://localhost:5000/api/transactions/summary/stats \
+curl -X GET http://localhost:5001/api/transactions/summary/stats \
   -H "Authorization: Bearer YOUR_TOKEN"
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### MongoDB Connection Error
 - Make sure MongoDB is running: `brew services list` (macOS) or check Windows Services
@@ -274,7 +274,7 @@ curl -X GET http://localhost:5000/api/transactions/summary/stats \
 - Try: `mongosh` to test MongoDB connection
 
 ### Port Already in Use
-- Backend (5000): Change `PORT` in `.env` file
+- Backend (5001): Change `PORT` in `.env` file
 - Frontend (3000): The app will prompt you to use a different port
 
 ### CORS Error
@@ -286,7 +286,7 @@ curl -X GET http://localhost:5000/api/transactions/summary/stats \
 - Clear browser localStorage and login again
 - Check if JWT_SECRET is set in backend `.env`
 
-## 🎨 Customization
+##  Customization
 
 ### Change Colors
 Edit the CSS files in `frontend/src/components/`:
@@ -303,7 +303,7 @@ const categories = {
 };
 ```
 
-## 📦 Production Deployment
+##  Production Deployment
 
 ### Backend
 1. Set up MongoDB Atlas (cloud database)
@@ -316,7 +316,7 @@ const categories = {
 2. Build the app: `npm run build`
 3. Deploy to Netlify, Vercel, or GitHub Pages
 
-## 🤝 Contributing
+##  Contributing
 
 This is a beginner-friendly project. Feel free to:
 - Report bugs
@@ -327,11 +327,11 @@ This is a beginner-friendly project. Feel free to:
 
 This project is open source and available under the MIT License.
 
-## 👨‍💻 Author
+##  Author
 
 Built as a beginner-friendly finance tracker tutorial project.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - React documentation
 - Express.js documentation
@@ -340,6 +340,6 @@ Built as a beginner-friendly finance tracker tutorial project.
 
 ---
 
-**Happy tracking! 💰📊**
+**Happy tracking! **
 
 For questions or issues, please open an issue on GitHub or contact the maintainer.
