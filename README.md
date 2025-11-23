@@ -116,7 +116,7 @@ cp .env.example .env
 
 4. Edit the `.env` file if needed (default values should work):
 ```env
-PORT=5000
+PORT=5001
 MONGODB_URI=mongodb://localhost:27017/finance-tracker
 JWT_SECRET=your_super_secret_jwt_key_change_this_in_production
 ```
