@@ -2,17 +2,17 @@
 
 A beginner-friendly full-stack finance tracking application built with Node.js, Express, MongoDB, and React.
 
-## 🌟 Features
+## Features
 
-- ✅ User authentication (Register & Login) with JWT
-- ✅ Add, edit, and delete transactions
-- ✅ View all transactions with details
-- ✅ Real-time balance calculation
-- ✅ Monthly income/expense summary
-- ✅ Clean and intuitive user interface
-- ✅ Responsive design for mobile and desktop
+-  User authentication (Register & Login) with JWT
+-  Add, edit, and delete transactions
+-  View all transactions with details
+-  Real-time balance calculation
+-  Monthly income/expense summary
+-  Clean and intuitive user interface
+-  Responsive design for mobile and desktop
 
-##  Tech Stack
+## Tech Stack
 
 **Backend:**
 - Node.js
@@ -27,7 +27,7 @@ A beginner-friendly full-stack finance tracking application built with Node.js, 
 - Axios for API calls
 - CSS for styling
 
-##  Project Structure
+## Project Structure
 
 ```
 FinanceTracker/
@@ -68,7 +68,7 @@ FinanceTracker/
     └── package.json
 ```
 
-##  Getting Started
+## Getting Started
 
 ### Prerequisites
 
