@@ -23,6 +23,9 @@ app.get('/', (req, res) => {
   res.json({ message: 'Finance Tracker API is running' });
 });
 
+app.get('/api', (req, res) => {
+  res.json({ message: 'Finance Tracker API is running' });
+});
 // Start server
 const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => {
