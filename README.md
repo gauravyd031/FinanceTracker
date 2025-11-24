@@ -1,6 +1,6 @@
 #  Finance Tracker - Full Stack Application
 
-A beginner-friendly full-stack finance tracking application built with Node.js, Express, MongoDB, and React.
+A full-stack finance tracking application built with Node.js, Express, MongoDB, and React.
 
 ## Features
 
